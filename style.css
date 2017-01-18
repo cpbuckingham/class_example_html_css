@@ -1,0 +1,204 @@
+/*
+	STYLE.CSS:
+	One stylesheet to rule them all.
+
+	selector { property:value }
+
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans|Quattrocento);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+
+/* ----- =structure ----- */
+
+body {
+	background-color: #fff;
+}
+header {
+	height: 120px;
+	background-color: #fff;
+}
+#content {
+	padding-top: 60px;
+	min-height: 400px;
+}
+footer {
+	height: 150px;
+	background-color: #bdcbd9;
+}
+.wrapper {
+	width: 90%;
+	margin: auto;
+}
+.wrapper:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/* ----- =logo ----- */
+
+header h1 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 40px;
+	float: left;
+	padding-top: 50px;
+	margin: 0;
+}
+header h1 a {
+	text-decoration: none;
+	color: #8f99a4;
+}
+header h1 a:hover {
+	color: #777;
+}
+header img {
+	float: left;
+	margin: 10px 0 0 20px;
+}
+
+
+/* ----- =navigation ----- */
+
+#top-nav {
+	float: right;
+	margin-top: 72px;
+}
+#top-nav ul {
+	margin: 0;
+	list-style: none;
+}
+#top-nav ul li {
+	display: inline-block;
+	margin-left: 40px;
+}
+#top-nav ul li a {
+	font-size: 18px;
+	color: #8f99a4;
+	text-decoration: none;
+	font-family: Quattrocento, sans-serif;
+}
+#top-nav ul li a:hover {
+	color: #777;
+}
+
+
+/* ----- =full background images ----- */
+
+.bg-full-image {
+	position: relative;
+	width: 100%;
+}
+.bg-full-image img {
+	display: block;
+	width: 100%;
+	border: 1px #b4b4b4 solid;
+}
+
+
+/* ----- =type ----- */
+
+h2 {
+	font-family: Quattrocento, sans-serif;
+	font-size: 36px;
+	color: #8f99a4;
+}
+h3 {
+	font-family: Quattrocento, sans-serif;
+	font-size: 36px;
+	color: #363636;
+}
+.center {
+	text-align: center;
+}
+p {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+	color: #777;
+}
+a:link {
+	color: #8f99a4;
+	text-decoration: none;
+}
+em {
+	font-size: 14px;
+	line-height: 18px;
+	padding-top: 10px;
+	display: block;
+	color: #999;
+}
+.quote {
+	text-indent: -0.5em;
+	font-size: 16px;
+	line-height: 20px;
+}
+footer p {
+	margin: 0;
+	padding-top: 20px;
+	color: #fff;
+}
+.button {
+	color: #8b959f;
+	border: 1px #8f99a4 solid;
+	background-color: #f6f9fb;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+.button:hover {
+	color: #fff;
+	background-color: #8b959f;
+	padding: 5px 10px;
+}
+
+/* -------- COLUMN LAYOUTS -------*/
+/* -- Column Sizes -- */
+
+.one_fourth   { width:21.25%; }
+.one_third    { width:29.333%; }
+.one_half     { width:45.5%; }
+.two_third    { width:61.666%; }
+.three_fourth { width:69.75%; }
+.one_column   { width:94%; }
+.full_column  { width:100%; }
+
+/* -- Column Margin & Float-- */
+.one_half,.one_third,.two_third,
+.three_fourth,.one_fourth,.one_column,
+.full_column {
+  margin-left:3%;
+  margin-top:1%;
+  float:left;
+}
+
+/* -- Column Row (aka Clearfix) -- */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* ----- =style ----- */
+hr {
+	height: 2px;
+	background-color: #d4d4d4;
+	border: none;
+	margin: 60px 0 100px 0;
+}
+#content img {
+	border: 1px #b4b4b4 solid;
+}
+
+
+/* ----- =socialmedia ----- */
+#social-media {
+	background-color: #8b959f;
+	text-align: center;
+}
+#social-media img {
+	margin: 15px 5px 10px 5px;
+}
